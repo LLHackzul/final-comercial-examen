@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.contrib import messages
 from .forms import CursoForm
-from .models import Curso, Alumno
+from .models import Cursado,Curso
 
 def alumno_nuevo(request):
     if request.method == "POST":
