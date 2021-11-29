@@ -11,7 +11,7 @@ class Alumno(models.Model):
     fecha_nacimiento = models.DateField()
 
     def __str__(self):
-        return self.nombre
+        return self.nombre_alumno
 
 class Curso(models.Model):
     nombre    = models.CharField(max_length=60)
